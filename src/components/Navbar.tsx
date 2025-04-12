@@ -23,6 +23,7 @@ export function Navbar() {
           <Link to="/about" className="hover:text-gray-300">About Us</Link>
           <Link to="/events" className="hover:text-gray-300">Events</Link>
           <Link to="/projects" className="hover:text-gray-300">Projects</Link>
+          <Link to="/blogs" className="hover:text-gray-300">Blogs</Link>
           <Link to="/board" className="hover:text-gray-300">Board</Link>
           <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
         </div>
@@ -35,6 +36,7 @@ export function Navbar() {
           <Link to="/about" className="block hover:text-gray-300" onClick={toggleMenu}>About Us</Link>
           <Link to="/events" className="block hover:text-gray-300" onClick={toggleMenu}>Events</Link>
           <Link to="/projects" className="block hover:text-gray-300" onClick={toggleMenu}>Projects</Link>
+          <Link to="/blogs" className="block hover:text-gray-300" onClick={toggleMenu}>Blogs</Link>
           <Link to="/board" className="block hover:text-gray-300" onClick={toggleMenu}>Board</Link>
           <Link to="/contact" className="block hover:text-gray-300" onClick={toggleMenu}>Contact Us</Link>
         </div>

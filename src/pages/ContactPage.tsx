@@ -54,13 +54,13 @@ export function ContactPage() {
                 <div className="bg-black text-white p-3 rounded-full">
                   <Mail className="w-5 h-5" />
                 </div>
-                <span className="text-lg font-medium text-gray-800">contact@Cygnus.com</span>
+                <span className="text-lg font-medium text-gray-800">cygnus@gmail.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="bg-black text-white p-3 rounded-full">
                   <Phone className="w-5 h-5" />
                 </div>
-                <span className="text-lg font-medium text-gray-800">+91 1234567890</span>
+                <span className="text-lg font-medium text-gray-800">+91 0123456789</span>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="bg-black text-white p-3 rounded-full">

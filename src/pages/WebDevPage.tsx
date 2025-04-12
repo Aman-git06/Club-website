@@ -2,10 +2,15 @@ import React from 'react';
 
 const WebDevPage = () => {
   return (
-    <div className="px-4 md:px-8 py-10 flex justify-center">
-      <div className="border border-black p-6 md:p-10 max-w-3xl w-full text-zinc-800">
-        <h1 className="text-3xl md:text-4xl font-extrabold decoration-black-700 mb-8 leading-snug max-w-xl">
-          "So You’re Trying to Make Web Development Work? Here’s Where You Start".
+    <div
+      className="pt-24 pb-16 px-4 md:px-8 flex justify-center bg-white min-h-screen"
+      style={{ fontFamily: "'Inter', 'Segoe UI', sans-serif" }}
+    >
+      <div className="bg-white border border-gray-300 shadow-md p-6 md:p-10 max-w-3xl w-full text-black rounded-xl">
+        <p>-Abhinav Patra (2nd Year, CSE)</p>
+        <br/>
+        <h1 className="text-3xl md:text-4xl font-extrabold mb-8 leading-snug max-w-xl">
+          So You’re Trying to Make Web Development Work? Here’s Where You Start.
         </h1>
 
         <p className="mb-4">
@@ -131,7 +136,9 @@ const WebDevPage = () => {
           <li>Python — Multipurpose language.</li>
         </ul>
 
-        <p className="mb-4 font-semibold">Pick the one that fits your vibe — but the golden rule? Build while learning.</p>
+        <p className="mb-4 font-semibold">
+          Pick the one that fits your vibe — but the golden rule? Build while learning.
+        </p>
 
         <h2 className="text-xl font-bold mb-2">Step 5: Follow These Three Creators Blindly (I Did)</h2>
 
@@ -146,7 +153,9 @@ const WebDevPage = () => {
           <li><strong>Shreyians Coding School</strong> — Solid beginner-level content.</li>
         </ul>
 
-        <p className="mb-4 italic">Follow them. Do their playlists. Trust the process. Even if it feels hard or confusing — keep going.</p>
+        <p className="mb-4 italic">
+          Follow them. Do their playlists. Trust the process. Even if it feels hard or confusing — keep going.
+        </p>
 
         <h2 className="text-xl font-bold mb-2">TL;DR (But Don’t Be Lazy — Read the Whole Thing)</h2>
         <ul className="list-disc pl-6 mb-4">
@@ -180,7 +189,7 @@ const WebDevPage = () => {
         <p className="text-sm text-zinc-600">— Abhinav Patra</p>
         <a
           href="https://github.com/abhinavpatra"
-          className="text-blue-600 underline hover:text-blue-800"
+          className="underline text-sm hover:opacity-80"
           target="_blank"
           rel="noopener noreferrer"
         >
