@@ -13,7 +13,7 @@ export function Footer() {
 
           {/* Right Side: Social Icons */}
           <div className="flex space-x-6 text-xl">
-            <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://medium.com/@cygnusclubnitmanipur" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaMediumM /> {/* Medium Icon */}
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
@@ -22,7 +22,7 @@ export function Footer() {
             <a href="https://www.linkedin.com/in/cygnus-club-nit-manipur-83691835b/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaLinkedin />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://www.instagram.com/cygnusclubnitmanipur?igsh=OXFoZnd6djZ0azBr" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaInstagram />
             </a>
           </div>
