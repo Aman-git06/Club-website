@@ -16,7 +16,7 @@ export function Home() {
       <Stats />
       <Domains />
       <Events />
-      <Projects />
+      {/* <Projects />  */}
     </div>
   );
 }
