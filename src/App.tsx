@@ -9,7 +9,7 @@ import { ProjectsPage } from './pages/ProjectsPage';
 import { BoardPage } from './pages/BoardPage';
 import { ContactPage } from './pages/ContactPage';
 import WebDevPage from './pages/WebDevPage';
-import UpcomingEvents from './pages/UpcomingEvents';
+import { UpcomingEvents } from './pages/UpcomingEvents';
 function App() {
   return (
     <Router>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/board" element={<BoardPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/blogs" element={<WebDevPage />} />
-          <Route path="/upcoming-events" element={<UpcomingEvents />} />
+          <Route path="/upcoming-events" element={<UpcomingEvents/>} />
 
         </Routes>
         <Footer />
